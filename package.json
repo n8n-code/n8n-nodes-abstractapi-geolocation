@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-abstractapi-geolocation",
-  "version": "1.0.0",
-  "description": "Abstract IP geolocation API allows developers to retrieve the region, country and city behind any IP worldwide. The API covers the geolocation of IPv4 and IPv6 addresses in 180+ countries worldwide..",
+  "version": "1.0.1",
+  "description": "IP geolocation API retrieves region, country, city for IPv4/IPv6 addresses across 180+ countries.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-abstractapi-geolocation",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "abstractapi-geolocation"

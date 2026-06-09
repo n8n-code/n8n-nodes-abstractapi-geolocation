@@ -15,9 +15,9 @@ export const defaultDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET V 1",
-					"value": "GET V 1",
-					"action": "GET V 1",
+					"name": "GET v1",
+					"value": "GET v1",
+					"action": "GET v1",
 					"description": "Retrieve the location of an IP address",
 					"routing": {
 						"request": {
@@ -43,13 +43,13 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET V 1"
+						"GET v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "api_key",
 			"required": true,
 			"default": "",
@@ -68,7 +68,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET V 1"
+						"GET v1"
 					]
 				}
 			}
@@ -92,7 +92,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET V 1"
+						"GET v1"
 					]
 				}
 			}
@@ -116,7 +116,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET V 1"
+						"GET v1"
 					]
 				}
 			}

@@ -53,9 +53,12 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Get v 1 |
+<details>
+<summary><b>Default</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
 
 ---
 

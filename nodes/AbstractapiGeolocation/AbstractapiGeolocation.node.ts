@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AbstractapiGeolocation implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'abstractapi-geolocation',
+		displayName: 'Abstractapi Geolocation',
 		name: 'N8nDevAbstractapiGeolocation',
 		icon: { light: 'file:./abstractapi-geolocation.png', dark: 'file:./abstractapi-geolocation.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Abstract IP geolocation API allows developers to retrieve the region, country and city behind any IP worldwide. The API covers the geolocation of IPv4 and IPv6 addresses in 180+ countries worldwide..',
-		defaults: { name: 'abstractapi-geolocation' },
+		description: 'IP geolocation API retrieves region, country, city for IPv4/IPv6 addresses across 180+ countries.',
+		defaults: { name: 'Abstractapi Geolocation' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

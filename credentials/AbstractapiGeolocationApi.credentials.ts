@@ -8,7 +8,7 @@ import type {
 export class AbstractapiGeolocationApi implements ICredentialType {
 	name = 'N8nDevAbstractapiGeolocationApi';
 
-	displayName = 'abstractapi-geolocation API';
+	displayName = 'Abstractapi Geolocation API';
 
 	icon: Icon = { light: 'file:../nodes/AbstractapiGeolocation/abstractapi-geolocation.png', dark: 'file:../nodes/AbstractapiGeolocation/abstractapi-geolocation.dark.png' };
 
@@ -22,7 +22,7 @@ export class AbstractapiGeolocationApi implements ICredentialType {
 			default: 'https://ipgeolocation.abstractapi.com',
 			required: true,
 			placeholder: 'https://ipgeolocation.abstractapi.com',
-			description: 'The base URL of your abstractapi-geolocation API server',
+			description: 'The base URL of your Abstractapi Geolocation API server',
 		},
 		{
 			displayName: 'API Key',
